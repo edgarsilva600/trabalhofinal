@@ -30,7 +30,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <form action="submissa.php" method="post" enctype="multipart/form-data">
+    <form action="submissao.php" method="post" enctype="multipart/form-data">
         <h1>Dados do Utilizador</h1>
         <?php echo "<p><strong>Nome:</strong> $nome</p>" ?><br>
 
